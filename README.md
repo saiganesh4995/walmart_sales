@@ -65,10 +65,10 @@ This project is an end-to-end data analysis solution designed to extract critica
 ### 10. Project Publishing and Documentation
    - **Documentation**: Maintain well-structured documentation of the entire process in Markdown or a Jupyter Notebook.
    - **Project Publishing**: Publish the completed project on GitHub or any other version control platform, including:
-     - The `README.md` file (this document).
-     - Jupyter Notebooks (if applicable).
+     - The `README.md` file .
+     - Jupyter Notebooks .
      - SQL query scripts.
-     - Data files (if possible) or steps to access them.
+     - Data files or steps to access them.
 
 ---
 
