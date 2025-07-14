@@ -111,7 +111,7 @@ This project is an end-to-end data analysis solution designed to extract critica
 |
 |-- requirements.txt               # Python dependencies
 |-- README.md                      # Project documentation
-
+```
 ---
 
 ## Results and Insights
