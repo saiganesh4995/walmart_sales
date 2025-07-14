@@ -106,8 +106,8 @@ This project explores key retail insights using SQL. Below are the 9 business qu
 ---
 
 📌 All SQL queries solving these problems are available in:
-- `sql_queries/mysql_analysis.sql`
-- `sql_queries/psql_analysis.sql`
+- `mysql_analysis.sql`
+- `psql_analysis.sql`
 
 ---
 
