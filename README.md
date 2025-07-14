@@ -69,6 +69,45 @@ This project is an end-to-end data analysis solution designed to extract critica
      - Jupyter Notebooks .
      - SQL query scripts.
      - Data files or steps to access them.
+     - 
+---
+
+## 🧠 Business Problem Statements Solved
+
+This project explores key retail insights using SQL. Below are the 9 business questions answered through SQL queries in `mysql_analysis.sql` and `psql_analysis.sql`.
+
+### ✅ List of Questions Answered:
+
+1. **What are the different payment methods and how many transactions and items were sold under each?**
+
+2. **Which is the highest rated product category in each branch?**
+   - Includes branch-wise average ratings and rankings.
+
+3. **What is the busiest day of the week for each branch based on the number of transactions?**
+
+4. **What is the total quantity of items sold per payment method?**
+
+5. **What are the average, minimum, and maximum ratings for each category in each city?**
+
+6. **What is the total profit for each category?**
+   - Profit is calculated as `(unit_price * quantity * profit_margin)`.
+
+7. **What is the most preferred (common) payment method in each branch?**
+
+8. **How are sales distributed across different times of the day?**
+   - Sales are grouped into Morning, Afternoon, and Evening shifts.
+
+9. **Which 5 branches had the highest revenue decrease compared to the previous year (2022 vs. 2023)?**
+   - Revenue decrease is calculated using:
+     ```
+     (last_year_revenue - current_year_revenue) / last_year_revenue * 100
+     ```
+
+---
+
+📌 All SQL queries solving these problems are available in:
+- `sql_queries/mysql_analysis.sql`
+- `sql_queries/psql_analysis.sql`
 
 ---
 
