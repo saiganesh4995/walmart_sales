@@ -94,16 +94,24 @@ This project is an end-to-end data analysis solution designed to extract critica
 
 ---
 
-## Project Structure
+## 📁 Project Structure
 
 ```plaintext
-|-- data/                     # Raw data and transformed data
-|-- sql_queries/              # SQL scripts for analysis and queries
-|-- notebooks/                # Jupyter notebooks for Python analysis
-|-- README.md                 # Project documentation
-|-- requirements.txt          # List of required Python libraries
-|-- main.py                   # Main script for loading, cleaning, and processing data
-```
+|-- data/
+|   |-- Walmart.csv                # Raw sales data from Kaggle
+|   |-- walmart_clean_data.csv     # Cleaned dataset used for analysis
+|   |-- walmart-10k-sales-datasets.zip  # Zipped original dataset from Kaggle
+|
+|-- sql_queries/
+|   |-- mysql_analysis.sql         # SQL queries executed in MySQL
+|   |-- psql_analysis.sql          # SQL queries executed in PostgreSQL (pgAdmin)
+|
+|-- notebooks/
+|   |-- project.ipynb              # Python + pandas analysis and data pipeline
+|
+|-- requirements.txt               # Python dependencies
+|-- README.md                      # Project documentation
+
 ---
 
 ## Results and Insights
